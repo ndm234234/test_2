@@ -1,6 +1,8 @@
 #pragma once
 
-class Regini
+#include "regini_interface.h"
+
+class Regini : // public IRegini
 {
 public:
     Regini(std::string);
